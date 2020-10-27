@@ -3,10 +3,12 @@ const path = require('path')
 
 function createWindow () {
   const win = new BrowserWindow({
-    width: 950,
-    height: 700,
+    width: 900,
+    height: 600,
+    minWidth: 900,
+    minHeight: 600,
     icon: path.join(__dirname, "public/icons/appico.ico"),
-    frame: true,
+    frame: false,
     webPreferences: {
       nodeIntegration: true
     }
