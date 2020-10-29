@@ -4,7 +4,7 @@ const host = "bobsonic.ddns.net"
 const serverPort = 3000
 let enableOnlineWall = true
 let bodyElmnt = document.querySelector("body")
-const wallUrl = `http://${host}:${3000}/api/getdailywall`
+const wallUrl = `http://${host}:${serverPort}/api/getdailywall`
 let wallPath = "../public/background.jpg"
 
 // On verifie si le fichier est dispo sur le serv

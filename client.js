@@ -10,7 +10,8 @@ function createWindow () {
     icon: path.join(__dirname, "public/icons/appico.ico"),
     frame: false,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true, 
+      enableRemoteModule: true
     }
   })
 
