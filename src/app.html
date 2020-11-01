@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
+    <script src="./dh.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="drag">
+
+    </div>
     <div class="div-one">
         <header>
             <button class="ui-btn minimize" id="min">
@@ -27,6 +31,18 @@
         </header>
     </div>
 </body>
+<br>
+<br>
+<br>
+
+    <div class="container">
+        <div class="text">
+            <span style="color: white; font-weight:bold; font-size: 23px;" id="date_heure"></span>
+            <script type="text/javascript">window.onload = date_heure('date_heure');</script>
+        </div>
+    </div>
+
+
 
 <script>
     const remote = require('electron').remote;
@@ -49,6 +65,8 @@
         var window = remote.getCurrentWindow()
         window.close();
     });
+    
+
 </script>
 
 <script src="./app.js"></script>

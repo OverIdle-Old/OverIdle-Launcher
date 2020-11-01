@@ -17,7 +17,7 @@ function createWindow () {
 
   win.loadFile(path.join(__dirname, 'src/app.html'))
   win.removeMenu()
-  //win.openDevTools()
+  win.openDevTools()
 }
 
 app.whenReady().then(createWindow)
