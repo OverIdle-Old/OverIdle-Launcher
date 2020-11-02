@@ -87,7 +87,7 @@ header {
     height: 80vh;
     border: none;
     border-radius: 10px;
-    backdrop-filter: blur(64px);
+    backdrop-filter: blur(16px);
     outline: none;
 }
 
@@ -105,8 +105,8 @@ input {
 }
 
 input:focus {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     border: none;
     padding: 10px;
     color: white;
@@ -134,7 +134,7 @@ input[type="button"]:hover {
     border: 2px solid white;
     background-color: rgb(0, 150, 255);
     cursor: pointer;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     border-radius: 5px;
 }
