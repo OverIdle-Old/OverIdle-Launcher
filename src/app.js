@@ -1,6 +1,5 @@
 const http = require("http")
-
-const host = "bobsonic.ddns.net"
+const host = "37.44.237.59"
 const serverPort = 3000
 let enableOnlineWall = true
 let bodyElmnt = document.querySelector("body")
